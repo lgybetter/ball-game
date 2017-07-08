@@ -1,0 +1,29 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body > header {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: lightblue; 
+}
+
+body > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  position: relative;
+}
+
+canvas {
+  border: 2px solid lightblue;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
